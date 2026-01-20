@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🍕Crust&Co.| login page</title>
+  <link rel="stylesheet" href="./style/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+  />
+</head>
+<body>
+
+    <nav class="navbar bg-dark">
+            <div class="container">
+              <div class="logo">
+                <div class="pizza-icon">
+                    <div class="cheese"></div>
+                    <div class="pepperoni pepperoni1"></div>
+                    <div class="pepperoni pepperoni2"></div>
+                    <div class="pepperoni pepperoni3"></div>
+                </div>
+                      <span class="logo-text">CRUST&CO.</span>
+              </div>
+               <ul class="navitems">
+                  <li class="navitem"><a href="./index.html">HOME</a></li>
+                  <li class="navitem"><a href="./about.html">ABOUT</a></li>
+                  <li class="navitem"><a href="./contact.html">CONTACT</a></li>
+                  <li class="navitem"><a href="./login.html">LOGIN</a></li>
+               </ul>
+            </div>
+        </nav>
+
+
+  <div class="login-page">
+    <div class="login-container">
+      <div class="logo">
+        <div class="pizza-icon">
+          <div class="cheese"></div>
+          <div class="pepperoni pepperoni1"></div>
+          <div class="pepperoni pepperoni2"></div>
+          <div class="pepperoni pepperoni3"></div>
+        </div>
+        <span class="logo-text">Crust&Co.</span>
+      </div>
+
+      <form class="login-form">
+        <h2 class="main">Login to Your Account</h2>
+
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+        />
+
+        <label for="otp">Enter OTP</label>
+        <input
+          type="text"
+          id="otp"
+          name="otp"
+          placeholder="One Time Password"
+          required
+        />
+
+        <div class="actions">
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
+
+        <div class="signup-text">
+          Don't have an account? <a href="#">Sign Up</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
