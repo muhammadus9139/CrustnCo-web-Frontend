@@ -41,7 +41,7 @@ Cross-browser compatibility
 
 Languages: HTML, CSS, JavaScript
 
-Frameworks/Libraries: Optional (Bootstrap, Tailwind, or Vanilla CSS)
+Frameworks/Libraries: (Vanilla CSS)
 
 Tools: VS Code, Chrome DevTools
 
